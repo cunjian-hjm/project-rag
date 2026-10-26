@@ -1,0 +1,42 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+
+# ===== IDE =====
+.idea/
+.vscode/
+*.swp
+
+# ===== 环境变量与密钥（务必不要提交）=====
+.env
+.env.*
+!.env.example
+
+# ===== 运行时产物 =====
+runtime/
+temp-files/
+eval/output/
+logs/
+*.log
+
+# ===== 本地学习用的 demo（保留在本地，不提交）=====
+/test/fastapi/
+/test/sse/
+
+# ===== 本地数据 / 存档 =====
+*.db
+*.sqlite3
+*.sqlite
+*.bak
+
+# ===== 系统文件 =====
+.DS_Store
+Thumbs.db
+desktop.ini
